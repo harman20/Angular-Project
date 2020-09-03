@@ -1,0 +1,6 @@
+export class PostsComponent {  
+  constructor(http: Http) {  
+    http.get('https://jsonplaceholder.typicode.com/posts')  
+      .subscribe()  
+  }  
+}  
